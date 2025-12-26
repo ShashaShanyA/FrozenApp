@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1766583679 source:d:\kemal 1\strukdat sem 3\tubesstdterbaru\bst.cpp
+	"bst.h"
+
+1766583679 d:\kemal 1\strukdat sem 3\tubesstdterbaru\bst.h
+	<iostream>
+
+1766583679 source:d:\kemal 1\strukdat sem 3\tubesstdterbaru\main.cpp
+	"bst.h"
+
