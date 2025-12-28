@@ -19,12 +19,6 @@ int main() {
     adrNode rootBST;
     createTree(rootBST);
 
-
-    insertProduct(rootBST, createNode({"Nugget_Ayam", "Nugget", 150, 35000.00, 15, 12, 2025}));
-    insertProduct(rootBST, createNode({"Sosis_Sapi", "Sosis", 200, 45000.00, 1, 1, 2024}));
-    insertProduct(rootBST, createNode({"Kentang_Fries", "Kentang", 90, 28500.00, 10, 5, 2026}));
-    insertProduct(rootBST, createNode({"Dimsum_Mix", "Seafood", 120, 32000.00, 20, 11, 2025}));
-
     int pilihan = 0;
     string namaKey;
     ProductData newFood;
