@@ -167,9 +167,9 @@ void checkExpired(adrNode root, int hariIni, int bulanIni, int tahunIni) {
         checkExpired(root->left, hariIni, bulanIni, tahunIni);
 
         bool expired = isExpired(
-            root->data.hariKadaluarsa,
-            root->data.bulanKadaluarsa,
             root->data.tahunKadaluarsa,
+            root->data.bulanKadaluarsa,
+            root->data.hariKadaluarsa,
             tahunIni,
             bulanIni,
             hariIni
